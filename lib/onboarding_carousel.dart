@@ -31,14 +31,6 @@ class _OnboardingCarouselState extends State<OnboardingCarousel> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text(
-          'Onboarding',
-          style: TextStyle(
-            fontFamily: 'NeueMachina',
-            fontSize: 20.sp,
-            fontWeight: FontWeight.w200,
-          ),
-        ),
         centerTitle: true,
       ),
       body: Column(
