@@ -1,0 +1,34 @@
+name: ijeoma_og
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^5.0.0
+  lottie: ^3.1.2
+  youtube_player_flutter: ^9.0.3
+  http: ^1.2.2
+  flutter_screenutil: ^5.9.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Roundtable Logo BLACK.png
+    - assets/animation/community.json
+    - assets/rountablegreenlogo.jpg
+    - assets/Animationmovie.json
+
+fonts:
+    - family: NeueMachina
+      fonts:
+        - asset: assets/animation/fonts/NeueMachina-Ultrabold.ttf
